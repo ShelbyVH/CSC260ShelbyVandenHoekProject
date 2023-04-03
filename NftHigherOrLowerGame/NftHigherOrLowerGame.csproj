@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFrameworks>net6.0-android;net6.0-maccatalyst;net6.0-ios</TargetFrameworks>
@@ -144,7 +144,7 @@
 	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 	    <PrivateAssets>all</PrivateAssets>
 	  </PackageReference>
-	  <PackageReference Include="supabase-csharp" Version="0.6.2" />
+	  <PackageReference Include="supabase-csharp" Version="0.8.8" />
 	  <PackageReference Include="UraniumUI.Material" Version="1.1.1" />
 	</ItemGroup>
 	<ItemGroup>
